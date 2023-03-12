@@ -1,1 +1,5 @@
-nowleb.com
+$ dig WWW.NOWLEB.COM +nostats +nocomments +nocmd
+    > ;WWW.NOWLEB.COM.                    IN      A
+    > WWW.NOWLEB.COM.             3592    IN      CNAME   nowleb.github.io.
+    > nowleb.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+    > GITHUB-PAGES-SERVER .         22      IN      A       185.199.108.153
