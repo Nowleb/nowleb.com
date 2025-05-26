@@ -1,79 +1,151 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nowleb</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/datetime.js" defer></script>
-  <script src="js/router.js" defer></script>
-  <script>
-    const advertisement = [
-      "ads/ad1.jpg",
-      "ads/ad2.jpg",
-      "ads/ad3.jpg",
-      "ads/ad4.jpg"
-    ];
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nowleb</title>
+<link href="css/styles.css" rel="stylesheet"/>
+<script defer="" src="js/datetime.js"></script>
+<script defer="" src="js/router.js"></script>
+<script>
+// --- Ad Rotation with Animation ---
+const adImages = [
+  'ads/desktop/728x90/ad1.jpg',
+  'ads/desktop/728x90/ad2.jpg',
+  'ads/desktop/728x90/ad3.jpg'
+];
+let adIndex = 0;
+setInterval(() => {
+  const img = document.getElementById("rotating-img");
+  img.style.opacity = 0;
+  setTimeout(() => {
+    adIndex = (adIndex + 1) % adImages.length;
+    img.src = adImages[adIndex];
+    img.style.opacity = 1;
+  }, 500);
+}, 10000);
 
-    let adIndex = 0;
+// --- Infinite Scroll with Pagination ---
+let pageIndex = 1;
+let maxPages = 5;
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
+    pageIndex++;
+    if (pageIndex > maxPages) return;
+    fetch(`menu/news/page${pageIndex}.html`)
+      .then(res => res.ok ? res.text() : '')
+      .then(html => {
+        if (html) {
+          document.querySelector('#main-content').insertAdjacentHTML('beforeend', html);
+        }
+      });
+});
+</script>
+<style>
+#rotating-img {
+  transition: opacity 0.5s ease-in-out;
+}
+</style>
 
-    function rotateAd() {
-      const adContainer = document.getElementById("ad-container");
-      adContainer.innerHTML = `<img src="${advertisement[adIndex]}" alt="Advertisement">`;
-      adIndex = (adIndex + 1) % advertisement.length;
-    }
+<style>
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.sticky-ad {
+  position: sticky;
+  top: 80px;
+}
+</style>
 
-    document.addEventListener("DOMContentLoaded", () => {
-      rotateAd();
-      setInterval(rotateAd, 10000); // rotate every 10 seconds
-
-      // Load header
-      fetch("header.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("header").innerHTML = html;
-        });
-
-      // Load headline ribbon
-      fetch("headline_ribbon.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("headline-ribbon").innerHTML = html;
-        });
-
-      // Load footer
-      fetch("footer.html")
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("footer").innerHTML = html;
-        });
-
-      // Initial page content
-      loadContent("main.html");
-    });
-
-    function loadContent(page) {
-      fetch(page)
-        .then(res => res.text())
-        .then(html => {
-          document.getElementById("main-content").innerHTML = html;
-        });
-    }
-  </script>
 </head>
 <body>
-  <div id="ad-container" class="ad-slot"></div>
+<div id="rotating-ad" style="text-align:center; padding:10px;">
+<img alt="Ad" id="rotating-img" loading="lazy" src="ads/desktop/728x90/ad1.jpg" style="width:728px;height:90px;"/>
+</div>
+<div id="header"></div>
+<div id="main-content"></div>
+<div id="footer"></div>
+<div class="ad-slot" id="ad-container"></div>
+<!-- Header -->
+<div id="header"></div>
+<!-- Headline Ribbon -->
+<main class="headline-ribbon" id="headline-ribbon"></main>
+<!-- Main Content -->
+<main class="main-content" id="main-content"></main>
+<!-- Footer -->
+<div id="footer"></div>
+<script>
+// --- Ad Rotation with Animation ---
+const adImages = [
+  'ads/desktop/728x90/ad1.jpg',
+  'ads/desktop/728x90/ad2.jpg',
+  'ads/desktop/728x90/ad3.jpg'
+];
+let adIndex = 0;
+setInterval(() => {
+  const img = document.getElementById("rotating-img");
+  img.style.opacity = 0;
+  setTimeout(() => {
+    adIndex = (adIndex + 1) % adImages.length;
+    img.src = adImages[adIndex];
+    img.style.opacity = 1;
+  }, 500);
+}, 10000);
 
-  <!-- Header -->
-  <div id="header"></div>
+// --- Infinite Scroll with Pagination ---
+let pageIndex = 1;
+let maxPages = 5;
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
+    pageIndex++;
+    if (pageIndex > maxPages) return;
+    fetch(`menu/news/page${pageIndex}.html`)
+      .then(res => res.ok ? res.text() : '')
+      .then(html => {
+        if (html) {
+          document.querySelector('#main-content').insertAdjacentHTML('beforeend', html);
+        }
+      });
+});
+</script>
+<script>
+// --- Ad Rotation with Animation ---
+const adImages = [
+  'ads/desktop/728x90/ad1.jpg',
+  'ads/desktop/728x90/ad2.jpg',
+  'ads/desktop/728x90/ad3.jpg'
+];
+let adIndex = 0;
+setInterval(() => {
+  const img = document.getElementById("rotating-img");
+  img.style.opacity = 0;
+  setTimeout(() => {
+    adIndex = (adIndex + 1) % adImages.length;
+    img.src = adImages[adIndex];
+    img.style.opacity = 1;
+  }, 500);
+}, 10000);
 
-  <!-- Headline Ribbon -->
-  <main id="headline-ribbon" class="headline-ribbon"></main>
-
-  <!-- Main Content -->
-  <main id="main-content" class="main-content"></main>
-
-  <!-- Footer -->
-  <div id="footer"></div>
+// --- Infinite Scroll with Pagination ---
+let pageIndex = 1;
+let maxPages = 5;
+window.addEventListener('scroll', () => {
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
+    pageIndex++;
+    if (pageIndex > maxPages) return;
+    fetch(`menu/news/page${pageIndex}.html`)
+      .then(res => res.ok ? res.text() : '')
+      .then(html => {
+        if (html) {
+          document.querySelector('#main-content').insertAdjacentHTML('beforeend', html);
+        }
+      });
+});
+</script>
 </body>
 </html>
