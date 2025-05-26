@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Nowleb</title>
@@ -64,6 +65,9 @@ window.addEventListener('scroll', () => {
 
 </head>
 <body>
+<div id='header'></div>
+<div id='main-content'></div>
+<div id='footer'></div>
 <div id="rotating-ad" style="text-align:center; padding:10px;">
 <img alt="Ad" id="rotating-img" loading="lazy" src="ads/desktop/728x90/ad1.jpg" style="width:728px;height:90px;"/>
 </div>
@@ -149,3 +153,27 @@ window.addEventListener('scroll', () => {
 </script>
 </body>
 </html>
+
+<script>
+// Load header
+fetch("header.html")
+  .then(res => res.text())
+  .then(html => document.getElementById("header").innerHTML = html);
+
+// Load footer
+fetch("footer.html")
+  .then(res => res.text())
+  .then(html => document.getElementById("footer").innerHTML = html);
+
+// Dynamic content loader
+function loadContent(page) {
+  fetch(page)
+    .then(res => res.text())
+    .then(html => document.getElementById("main-content").innerHTML = html);
+}
+
+// Load default
+window.addEventListener("DOMContentLoaded", () => {
+  loadContent("main.html");
+});
+</script>
