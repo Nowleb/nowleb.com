@@ -1,7 +1,6 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   const components = [
-    { id: "header", path: "ads/top_ad/top_ad.html" },
+    { id: "top-ad", path: "ads/top_ad/top_ad.html" },
     { id: "header", path: "header/header.html" },
     { id: "headline-ribbon", path: "ribbon/ribbon.html" },
     { id: "footer", path: "footer/footer.html" },
@@ -25,8 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
-
-
 
 function loadContent(path, targetId = "main-content") {
   fetch(path)
