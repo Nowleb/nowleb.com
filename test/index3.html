@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nowleb</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="datetime.js" defer></script>
+  <script src="router.js" defer></script>
+  <script>
+    const advertisement = [
+      "ads/ad1.jpg",
+      "ads/ad2.jpg",
+      "ads/ad3.jpg",
+      "ads/ad4.jpg"
+    ];
+
+    let adIndex = 0;
+
+    function rotateAd() {
+      const adContainer = document.getElementById("ad-container");
+      adContainer.innerHTML = `<img src="${advertisement[adIndex]}" alt="Advertisement">`;
+      adIndex = (adIndex + 1) % advertisement.length;
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      rotateAd();
+      setInterval(rotateAd, 10000); // rotate every 10 seconds
+
+      // Load header
+      fetch("header.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("header").innerHTML = html;
+        });
+
+      // Load headline ribbon
+      fetch("headline_ribbon.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("headline-ribbon").innerHTML = html;
+        });
+
+      // Load footer
+      fetch("footer.html")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+
+      // Initial page content
+      loadContent("home.html");
+    });
+
+    function loadContent(page) {
+      fetch(page)
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("main-content").innerHTML = html;
+        });
+    }
+  </script>
+</head>
+<body>
+  <div id="ad-container" class="ad-slot"></div>
+
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Headline Ribbon -->
+  <main id="headline-ribbon" class="headline-ribbon"></main>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content"></main>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+</body>
+</html>
