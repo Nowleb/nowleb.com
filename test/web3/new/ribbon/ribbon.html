@@ -1,0 +1,26 @@
+<div class="headline-ribbon" id="headlineRibbon"></div>
+<script>
+  fetch('ribbon_links.txt')
+    .then(response => response.text())
+    .then(data => {
+      const ribbon = document.getElementById('headlineRibbon');
+      const lines = data.trim().split('\n');
+      lines.forEach((line, index) => {
+        const [text, link] = line.split('|');
+        const anchor = document.createElement('a');
+        anchor.href = link;
+        anchor.textContent = text.trim();
+        anchor.target = "_blank";
+        ribbon.appendChild(anchor);
+
+        if (index < lines.length - 1) {
+          const divider = document.createElement('span');
+          divider.textContent = '|';
+          ribbon.appendChild(divider);
+        }
+      });
+    })
+    .catch(err => {
+      console.error('Failed to load linked ribbon headlines:', err);
+    });
+</script>
