@@ -1793,64 +1793,64 @@ h1,h2,h3,h4,h5 {
 @font-face {
     font-family: nowleb_sans_display;
     font-weight: 700;
-    src: url(/fonts/nowleb/nowleb_sans_display-bold-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/nowleb_sans_display-bold-v1.woff2)
 }
 
 @font-face {
     font-family: nowleb_sans_display;
     font-weight: 500;
-    src: url(/fonts/nowleb/nowleb_sans_display-medium-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/nowleb_sans_display-medium-v1.woff2)
 }
 
 @font-face {
     font-family: nowleb_sans_display;
-    src: url(/fonts/nowleb/nowleb_sans_display-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/nowleb_sans_display-v1.woff2)
 }
 
 @font-face {
     font-family: helveticaneue;
-    src: url(/fonts/nowleb/helveticaneue-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/helveticaneue-v1.woff2)
 }
 
 @font-face {
     font-family: noto_sans_arabic;
-    src: url(/fonts/nowleb/noto_sans_arabic-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_sans_arabic-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif;
     font-weight: 700;
-    src: url(/fonts/nowleb/noto_serif-bold-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif-bold-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif;
-    src: url(/fonts/nowleb/noto_serif-bold_italic-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif-bold_italic-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif;
-    src: url(/fonts/nowleb/noto_serif-italic-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif-italic-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif;
-    src: url(/fonts/nowleb/noto_serif-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif_extra_condensed_black;
-    src: url(/fonts/nowleb/noto_serif_extra_condensed_black-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif_extra_condensed_black-v1.woff2)
 }
 
 @font-face {
     font-family: noto_serif_semi_condensed;
-    src: url(/fonts/nowleb/noto_serif_semi_condensed-v1.woff2)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_serif_semi_condensed-v1.woff2)
 }
 
 @font-face {
     font-family: noto_sans_arabic;
-    src: url(/fonts/nowleb/noto_sans_arabic-v1.ttf)
+    src: url(https://nowleb.com/test/web3/fonts/nowleb/noto_sans_arabic-v1.ttf)
 }
 
 .subscribe-button {
@@ -2467,7 +2467,7 @@ h1,h2,h3,h4,h5 {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    background-image: url(/media/sites/nowleb/icons/ui-close.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-close.svg)
 }
 
 .ad-feedback__container .ad-feedback__form .ad-feedback__content-container {
@@ -2611,23 +2611,23 @@ h1,h2,h3,h4,h5 {
 }
 
 .ad-feedback__container .ad-feedback__emoji-base.ad-feedback__emoji-bad:before {
-    background-image: url(/media/sites/nowleb/icons/feedback-emoji-bad.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/feedback-emoji-bad.svg)
 }
 
 .ad-feedback__container .ad-feedback__emoji-base.ad-feedback__emoji-not-good:before {
-    background-image: url(/media/sites/nowleb/icons/feedback-emoji-not-good.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/feedback-emoji-not-good.svg)
 }
 
 .ad-feedback__container .ad-feedback__emoji-base.ad-feedback__emoji-okay:before {
-    background-image: url(/media/sites/nowleb/icons/feedback-emoji-okay.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/feedback-emoji-okay.svg)
 }
 
 .ad-feedback__container .ad-feedback__emoji-base.ad-feedback__emoji-good:before {
-    background-image: url(/media/sites/nowleb/icons/feedback-emoji-good.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/feedback-emoji-good.svg)
 }
 
 .ad-feedback__container .ad-feedback__emoji-base.ad-feedback__emoji-great:before {
-    background-image: url(/media/sites/nowleb/icons/feedback-emoji-great.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/feedback-emoji-great.svg)
 }
 
 .ad-feedback__container .ad-feedback__emoji-radio-input {
@@ -2801,7 +2801,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .ad-feedback__container .ad-feedback__submitted__checkmark {
-    background: url(/media/sites/nowleb/icons/system-check-default.svg) center no-repeat;
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/system-check-default.svg) center no-repeat;
     background-size: cover;
     height: 64px;
     width: 64px;
@@ -2851,7 +2851,7 @@ h1,h2,h3,h4,h5 {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    background-image: url(/media/sites/nowleb/icons/ui-close.svg);
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-close.svg);
     position: absolute;
     top: 0;
     right: 0
@@ -2927,7 +2927,7 @@ h1,h2,h3,h4,h5 {
         right: 0;
         width: 20px;
         cursor: pointer;
-        background-image: url(/media/sites/nowleb/icons/ui-close.svg)
+        background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-close.svg)
     }
 
     body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-app.kiln-edit-mode ) .ad-feedback__container .ad-feedback__form .ad-feedback__content-container .ad-feedback__question-container {
@@ -3409,7 +3409,7 @@ html {
 }
 
 .header__nav-more--toggle-caret::after {
-    content: url(/media/sites/nowleb/icons/gray-caret.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/gray-caret.svg);
     border: none;
     cursor: pointer;
     height: 20px;
@@ -3421,7 +3421,7 @@ html {
 }
 
 .header__nav-more--toggle-caret-up::after {
-    content: url(/media/sites/nowleb/icons/gray-caret-up.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/gray-caret-up.svg)
 }
 
 .header__nav-more-link:hover {
@@ -3636,12 +3636,12 @@ html {
 
 .header__video-link::before {
     width: 16px;
-    mask-image: url(/media/sites/nowleb/icons/video-icon-header.svg)
+    mask-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-icon-header.svg)
 }
 
 .header__audio-link::before {
     width: 16px;
-    mask-image: url(/media/sites/nowleb/icons/audio-icon-header.svg)
+    mask-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-icon-header.svg)
 }
 
 .header--active .header__navigation-separator,.header-elevate,.header__subnav {
@@ -3649,7 +3649,7 @@ html {
 }
 
 .header__live-tv-link::before {
-    background-image: url(/media/sites/nowleb/icons/live-tv-icon-header.svg);
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/live-tv-icon-header.svg);
     width: 8px;
     height: 8px
 }
@@ -3742,7 +3742,7 @@ html {
     background-color: #fff;
     display: inline-block;
     content: '';
-    mask: url(/media/sites/nowleb/icons/ui-caret-down.svg) no-repeat 50% 50%;
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-caret-down.svg) no-repeat 50% 50%;
     mask-size: contain;
     transition: transform .5s ease;
     width: 16px;
@@ -4183,7 +4183,7 @@ html {
     }
 
     body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-app.kiln-edit-mode ).underscored .header .search-bar:before {
-        content: url(/media/sites/nowleb/nowleb.svg);
+        content: url(https://nowleb.com/test/web3/media/sites/nowleb/nowleb.svg);
         display: block;
         margin: auto auto 24px;
         width: 46px
@@ -4493,7 +4493,7 @@ html {
 }
 
 .header-elevate .header__nav-more--toggle-caret::after {
-    content: url(/media/sites/nowleb/icons/gray-caret.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/gray-caret.svg);
     border: none;
     cursor: pointer;
     height: 20px;
@@ -4505,7 +4505,7 @@ html {
 }
 
 .header-elevate .header__nav-more--toggle-caret-up::after {
-    content: url(/media/sites/nowleb/icons/gray-caret-up.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/gray-caret-up.svg)
 }
 
 .header-elevate .header__nav-more-link:hover {
@@ -4728,7 +4728,7 @@ html {
 .header-elevate .header__video-link::before {
     width: 16px;
     height: 16px;
-    mask-image: url(/media/sites/nowleb/icons/video-icon-header.svg);
+    mask-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-icon-header.svg);
     mask-size: 100%;
     background-color: var(--theme-header__icon-color)
 }
@@ -4736,7 +4736,7 @@ html {
 .header-elevate .header__audio-link::before {
     width: 16px;
     height: 16px;
-    mask-image: url(/media/sites/nowleb/icons/audio-icon-header.svg);
+    mask-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-icon-header.svg);
     mask-size: 100%;
     background-color: var(--theme-header__icon-color)
 }
@@ -4746,7 +4746,7 @@ html {
 }
 
 .header-elevate .header__live-tv-link::before {
-    background-image: url(/media/sites/nowleb/icons/live-tv-icon-header.svg);
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/live-tv-icon-header.svg);
     width: 8px;
     height: 8px
 }
@@ -4965,7 +4965,7 @@ html {
     }
 
     body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-app.kiln-edit-mode ).underscored .header .search-bar:before {
-        content: url(/media/sites/nowleb/nowleb.svg);
+        content: url(https://nowleb.com/test/web3/media/sites/nowleb/nowleb.svg);
         display: block;
         margin: auto auto 24px;
         width: 46px
@@ -5158,7 +5158,7 @@ html {
         background-color: #fff;
         display: inline-block;
         content: '';
-        mask: url(/media/sites/nowleb/icons/ui-caret-down.svg) no-repeat 50% 50%;
+        mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-caret-down.svg) no-repeat 50% 50%;
         mask-size: contain;
         transition: transform .5s ease;
         width: 16px;
@@ -5710,7 +5710,7 @@ html {
     color: #404040;
     font-family: var(--theme-font-family);
     font-weight: 700;
-    content: url(/media/sites/nowleb/icons/ui-search.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-search.svg)
 }
 
 .search-bar__submit:hover {
@@ -6412,7 +6412,7 @@ html {
 .ad-slot .ad-feedback-link-container .ad-feedback-link__label:before,.ad-slot .ad-feedback-link-container .ad-slot__feedback-text__label:before,.ad-slot .ad-slot__feedback .ad-feedback-link__label:before,.ad-slot .ad-slot__feedback .ad-slot__feedback-text__label:before {
     display: inline-block;
     content: '';
-    mask: url(/media/sites/nowleb/icons/ui-speech-bubble.svg);
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-speech-bubble.svg);
     background-color: #6e6e6e;
     position: relative;
     top: 2px;
@@ -8243,7 +8243,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .zone--t-dark .container__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video.svg)
 }
 
 .zone--t-dark .container__text .icon-sig-photo-default,.zone--t-dark .container__text .icon-sig-video {
@@ -8255,19 +8255,19 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .zone--t-dark .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio.svg)
 }
 
 .zone--t-dark .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone.svg)
 }
 
 .zone--t-dark .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo.svg)
 }
 
 .zone--t-dark .container__text-label--type-custom-video:not(:empty)::before,.zone--t-dark .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video.svg)
 }
 
 .zone--t-dark,.zone--t-day-of-deals,.zone--t-sleep-week,.zone--t-underscored {
@@ -8897,11 +8897,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .image__label--type-custom-video .image__label-icon,.image__label--type-video .image__label-icon {
-    background-image: url(/media/sites/nowleb/icons/video.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video.svg)
 }
 
 .image__label--type-gallery .image__label-icon {
-    background-image: url(/media/sites/nowleb/icons/photo.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo.svg)
 }
 
 .image__label-bull-span {
@@ -9530,11 +9530,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -9542,15 +9542,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -9660,7 +9660,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -9729,11 +9729,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -9813,7 +9813,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -9938,11 +9938,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -10739,11 +10739,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -10751,15 +10751,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -10869,7 +10869,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -10938,11 +10938,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -11022,7 +11022,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -11147,11 +11147,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -11847,11 +11847,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -11859,15 +11859,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -11974,7 +11974,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -12043,11 +12043,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -12127,7 +12127,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -12252,11 +12252,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -12968,11 +12968,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -12980,15 +12980,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -13098,7 +13098,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -13167,11 +13167,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -13251,7 +13251,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -13376,11 +13376,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -14077,11 +14077,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -14089,15 +14089,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -14206,7 +14206,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -14275,11 +14275,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -14359,7 +14359,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -14484,11 +14484,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -15262,11 +15262,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -15274,15 +15274,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -15392,7 +15392,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -15461,11 +15461,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -15545,7 +15545,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -15670,11 +15670,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -16389,11 +16389,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-audio:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/audio-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio-dark.svg)
 }
 
 .container__text-label--type-podcasts:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/microphone-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone-dark.svg)
 }
 
 .container__text-label--type-video {
@@ -16401,15 +16401,15 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container__text-label--type-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label--type-gallery:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/photo-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo-dark.svg)
 }
 
 .container__text-label--type-custom-video:not(:empty)::before {
-    content: url(/media/sites/nowleb/icons/video-dark.svg)
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg)
 }
 
 .container__text-label:not(:empty)::after {
@@ -16519,7 +16519,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container_bulleted-headlines__item .container__video-duration-icon,.container_feature-cards__item .container__video-duration-icon,.container_grid-2__item .container__video-duration-icon,.container_grid-3__item .container__video-duration-icon,.container_grid-4__item .container__video-duration-icon,.container_lead-package__item .container__video-duration-icon,.container_lead-plus-headlines-with-images__item .container__video-duration-icon,.container_lead-plus-headlines__item .container__video-duration-icon,.container_list-headlines-ranked__item .container__video-duration-icon,.container_list-headlines-with-images__item .container__video-duration-icon,.container_list-headlines-with-read-times__item .container__video-duration-icon,.container_list-headlines__item .container__video-duration-icon,.container_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: -2px;
     padding-bottom: 0;
@@ -16588,11 +16588,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .container .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .container .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .container .pagination-next,.container .pagination-previous {
@@ -16672,7 +16672,7 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.product-zone--t-dark_feature-cards__item .container__video-duration-icon,.product-zone--t-dark_grid-2__item .container__video-duration-icon,.product-zone--t-dark_grid-3__item .container__video-duration-icon,.product-zone--t-dark_grid-4__item .container__video-duration-icon,.product-zone--t-dark_lead-package__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.product-zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.product-zone--t-dark_list-headlines__item .container__video-duration-icon,.product-zone--t-dark_list-images-with-description__item .container__video-duration-icon,.zone--t-dark_bulleted-headlines__item .container__video-duration-icon,.zone--t-dark_feature-cards__item .container__video-duration-icon,.zone--t-dark_grid-2__item .container__video-duration-icon,.zone--t-dark_grid-3__item .container__video-duration-icon,.zone--t-dark_grid-4__item .container__video-duration-icon,.zone--t-dark_lead-package__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_lead-plus-headlines__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-images__item .container__video-duration-icon,.zone--t-dark_list-headlines-with-read-times__item .container__video-duration-icon,.zone--t-dark_list-headlines__item .container__video-duration-icon,.zone--t-dark_list-images-with-description__item .container__video-duration-icon {
-    content: url(/media/sites/nowleb/icons/video-dark.svg);
+    content: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video-dark.svg);
     margin-right: 2px;
     margin-top: 2px;
     padding-bottom: 0;
@@ -16797,11 +16797,11 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .product-zone--t-dark .pagination-previous::before,.zone--t-dark .pagination-previous::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-left.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-left.svg)
 }
 
 .product-zone--t-dark .pagination-next::before,.zone--t-dark .pagination-next::before {
-    mask: url(/media/sites/nowleb/icons/ui-arrow-right.svg)
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-arrow-right.svg)
 }
 
 .product-zone--t-dark .pagination-next,.product-zone--t-dark .pagination-previous,.zone--t-dark .pagination-next,.zone--t-dark .pagination-previous {
@@ -17104,23 +17104,23 @@ html[data-layout-uri*='homepage-mobile/instances/homepage-domestic'] .kiln-edit-
 }
 
 .card__label--type-custom-video .card__label-icon,.card__label--type-video .card__label-icon {
-    background-image: url(/media/sites/nowleb/icons/video.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/video.svg)
 }
 
 .card__label--type-podcasts .card__label-icon {
-    background-image: url(/media/sites/nowleb/icons/microphone.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/microphone.svg)
 }
 
 .card__label--type-audio .card__label-icon {
-    background-image: url(/media/sites/nowleb/icons/audio.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/audio.svg)
 }
 
 .card__label--type-gallery .card__label-icon {
-    background-image: url(/media/sites/nowleb/icons/photo.svg)
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/photo.svg)
 }
 
 .card__label--type-live-video .card__label-icon {
-    background-image: url(/media/sites/nowleb/icons/live-video-icon.svg);
+    background-image: url(https://nowleb.com/test/web3/media/site/nowleb/icons/live-video-icon.svg);
     width: 16px;
     height: 16px;
     margin-bottom: 4px
@@ -17594,7 +17594,7 @@ body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-ap
     height: 40px;
     cursor: pointer;
     border-radius: 50%;
-    background: url(/media/sites/nowleb/icons/ui-close.svg) center no-repeat #f8f8f8;
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-close.svg) center no-repeat #f8f8f8;
     position: absolute;
     z-index: 4;
     filter: invert(1);
@@ -17650,7 +17650,7 @@ body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-ap
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
-    background-image: url(/media/sites/nowleb/video-placeholder.svg)
+    background-image: url(https://nowleb.com/test/web3/media/sites/nowleb/video-placeholder.svg)
 }
 
 .video-resource__details {
@@ -17726,7 +17726,7 @@ body:not(.layout-homepage-mobile.kiln-edit-mode):not( .layout-homepage-mobile-ap
     height: 89.25px;
     background-color: #0c0c0c;
     width: 148px;
-    background-image: url(/media/sites/nowleb/video-placeholder.svg)
+    background-image: url(https://nowleb.com/test/web3/media/sites/nowleb/video-placeholder.svg)
 }
 
 .video-resource__description {
@@ -17801,7 +17801,7 @@ div[data-component-name=video-resource] .ad-feedback-link-container .ad-feedback
 div[data-component-name=video-resource] .ad-feedback-link-container .ad-feedback-link__label:before,div[data-component-name=video-resource] .ad-feedback-link-container .ad-slot__feedback-text__label:before,div[data-component-name=video-resource] .ad-slot__feedback .ad-feedback-link__label:before,div[data-component-name=video-resource] .ad-slot__feedback .ad-slot__feedback-text__label:before {
     display: inline-block;
     content: '';
-    mask: url(/media/sites/nowleb/icons/ui-speech-bubble.svg);
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-speech-bubble.svg);
     background-color: #6e6e6e;
     position: relative;
     top: 2px;
@@ -18238,7 +18238,7 @@ div[data-component-name=video-player] {
     height: 89.25px;
     background-color: #0c0c0c;
     width: 148px;
-    background-image: url(/media/sites/nowleb/video-placeholder.svg)
+    background-image: url(https://nowleb.com/test/web3/media/sites/nowleb/video-placeholder.svg)
 }
 
 .video-player .ad-feedback-link-container .ad-feedback-link,.video-player .ad-slot__feedback .ad-slot__feedback-text {
@@ -18697,7 +18697,7 @@ div[data-component-name=video-player] {
 #taui-mvpdpicker .taui-footer .taui-viewallbutton:after {
     top: 5px;
     width: 14px;
-    mask: url(/media/sites/nowleb/icons/ui-caret-right-thick.svg);
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-caret-right-thick.svg);
     mask-size: cover;
     margin-left: 4px
 }
@@ -18705,7 +18705,7 @@ div[data-component-name=video-player] {
 #taui-mvpdpicker .taui-footer .taui-viewtopbutton:before {
     top: 4px;
     width: 14px;
-    mask: url(/media/sites/nowleb/icons/ui-caret-left-thick.svg);
+    mask: url(https://nowleb.com/test/web3/media/site/nowleb/icons/ui-caret-left-thick.svg);
     mask-size: cover
 }
 
@@ -19241,7 +19241,7 @@ html {
 }
 
 .kiln-internals .clay-kiln-logo.stellar::before {
-    background-image: url(/media/sites/nowleb/stellar-logo.svg);
+    background-image: url(https://nowleb.com/test/web3/media/sites/nowleb/stellar-logo.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     content: ' ';
@@ -19599,7 +19599,7 @@ html {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: url(/media/sites/nowleb/icons/visibility-off.svg) center no-repeat;
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/visibility-off.svg) center no-repeat;
     background-color: rgba(0,0,0,.6);
     transform: translate(-50%,-50%);
     pointer-events: none
@@ -20670,7 +20670,7 @@ html {
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=disabled] .video-resource__image:has(.image__container)::before {
-    background: url(/media/sites/nowleb/icons/play-icon.svg) center no-repeat
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/play-icon.svg) center no-repeat
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=disabled] .video-resource__image:has(.image__container):hover::after {
@@ -20678,7 +20678,7 @@ html {
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=unmuted] .video-resource__image:has(.image__container)::before {
-    background: url(/media/sites/nowleb/icons/autoplay-icon.svg) center no-repeat
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/autoplay-icon.svg) center no-repeat
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=unmuted] .video-resource__image:has(.image__container):hover::after {
@@ -20686,7 +20686,7 @@ html {
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=muted] .video-resource__image:has(.image__container)::before {
-    background: url(/media/sites/nowleb/icons/autoplay-muted-icon.svg) center no-repeat
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/autoplay-muted-icon.svg) center no-repeat
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=muted] .video-resource__image:has(.image__container):hover::after {
@@ -20694,7 +20694,7 @@ html {
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=scroll] .video-resource__image:has(.image__container)::before {
-    background: url(/media/sites/nowleb/icons/autoplay-onscroll-icon.svg) center no-repeat
+    background: url(https://nowleb.com/test/web3/media/site/nowleb/icons/autoplay-onscroll-icon.svg) center no-repeat
 }
 
 .kiln-edit-mode [data-component-name=video-resource][data-autostart=scroll] .video-resource__image:has(.image__container):hover::after {
