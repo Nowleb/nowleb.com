@@ -1000,7 +1000,7 @@ body,h1,h2,h3,h4,h5 {
     --theme-header__login-button-border-color: #ffffff;
     --theme-header__login-button-text-color: #ffffff;
     --theme-header__login-button-hover-text-color: #ffffff;
-    --theme-header__scrolled-box-shadow: 0px 3px 8px 0px #6a73810f,0px 6px 12px 0px #6a738129;
+    --theme-header__scrolled-box-shadow: 0px 3px 8px 0px #0dc42b0f,0px 6px 12px 0px #6a738129;
     --theme-header__auth-avatar-hover: #6e6e6e;
     --theme-headline-sponsorship__lateral-margin: 0;
     --theme-headline__margin-bottom: 16px;
