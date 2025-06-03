@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const components = [
-    { id: "top-ad", path: "ads/top_ad/top_ad.html" },
-    { id: "header", path: "header/header.html" },
-    { id: "headline-ribbon", path: "ribbon/ribbon.html" },
-    { id: "footer", path: "footer/footer.html" },
+    { id: "top-ad", path: "components/top_ads.html" },
+    { id: "header", path: "components/header.html" },
+    { id: "ribbon-links", path: "components/ribbon.html" },
+    { id: "footer", path: "components/footer.html" },
+    { id: "session-0", path: "session0/session0.html" },
     { id: "session-1", path: "session1/session1.html" },
     { id: "session-2", path: "session2/session2.html" },
     { id: "session-3", path: "session3/session3.html" },
