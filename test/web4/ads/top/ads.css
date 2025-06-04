@@ -3,12 +3,13 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #d32030;
 }
 
 img {
   display: flex;
-  max-width: 100%;
-  height: 100%;
+  max-width: auto;
+  height: auto;
 }
 
 .ad-wrapper {
@@ -17,13 +18,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   padding: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 250px;
-  background-color: #000;
+  width: auto;
+  height: auto;
+  max-width: auto;
+  max-height: auto;
+  background-color: #d32030;
 }
 
 .top-ad-label {
@@ -37,7 +38,6 @@ img {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 970 / 90; /* Default: leaderboard */
   max-width: 100%;
   border: none;
 }
@@ -61,14 +61,3 @@ img {
   width: 300px;
   height: 250px;
 }
-
-.ad-728x90 img {
-  width: 728px;
-  height: 90px;
-}
-
-.ad-970x250 img {
-  width: 970px;
-  height: 250px;
-}
-

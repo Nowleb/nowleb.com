@@ -3063,7 +3063,8 @@ h1,h2,h3,h4,h5 {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #000000
+        background-color: #d32030;
+
     }
 
     .ad-slot-header .ad-slot-header__container {

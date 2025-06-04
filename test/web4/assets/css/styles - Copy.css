@@ -15,7 +15,52 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+.site-header {
+  background-color: #fff;
+  font-size: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.header-container {
+  max-width: 1440px;
+  height: 42px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.logo {
+  color: #d32030;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 10px;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 2px 0 3px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.main-nav a:hover,
+.main-nav .active a {
+  color: #d32030;
+  border-bottom: 2px solid #d32030;
+  font-weight: bold;
+}
 #datetime {
   font-size: 11px;
   white-space: nowrap;
