@@ -3038,7 +3038,7 @@ h1,h2,h3,h4,h5 {
 
     .ad-slot-header__wrapper {
         min-height:50px;
-        background-color: #000000
+        background-color: #d32030
     }
 
     .ad-slot-header .ad-slot-header__container .adSlotLoaded .ad-slot__ad-label::after {
@@ -3198,8 +3198,8 @@ body.nowlebe[data-page-type*=profile],body[data-page-type*=gallery]:has(article.
 }
 
 html[data-layout-uri*='layout-no-rail/instances/electioncenter'] .header__navigation-separator,html[data-layout-uri*='layout-with-rail/instances/electioncenter'] .header__navigation-separator {
-    height: 1px;
-    border-bottom: solid 1px #404040
+    height: 2px;
+    border-bottom: solid 2px #d32030
 }
 
 html {

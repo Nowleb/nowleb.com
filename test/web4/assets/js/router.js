@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const components = [
-    { id: "top-ad", path: "ads/top/top_ads.html" },
+    { id: "top-ad", path: "components/top_ads.html" },
     { id: "header", path: "components/header.html" },
     { id: "ribbon-links", path: "components/ribbon.html" },
     { id: "footer", path: "components/footer.html" },
