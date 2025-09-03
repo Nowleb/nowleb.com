@@ -1,8 +1,0 @@
-Pavlos|https://nowleb.com/profile/pavlos
-Brooklyn Bridge incident|https://nowleb.com/news/brooklyn-bridge
-Russia-Ukraine talks|https://nowleb.com/world/russia-ukraine
-Romania’s presidential election re-run|https://nowleb.com/politics/romania-election
-Eurovision Song Contest|https://nowleb.com/entertainment/eurovision
-Poland election|https://nowleb.com/politics/poland-election
-Celebrity tequila|https://nowleb.com/entertainment/celebrity-tequila
-Labubus|https://nowleb.com/tech/labubus

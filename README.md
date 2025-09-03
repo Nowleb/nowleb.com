@@ -1,2 +1,0 @@
-# nowleb.com
-Entertainment Blog
