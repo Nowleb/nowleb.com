@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nowleb.com/sitemap.xml
